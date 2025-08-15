@@ -91,7 +91,7 @@ export const ContactSection = () => {
             </div>
 
             <div className="pt-8">
-              <h4 className="font-medium mb-4"> Siga-me</h4>
+              <h4 className="font-medium mb-4 "> Siga-me</h4>
               <div className="flex space-x-4 justify-center">
                 <a href="www.linkedin.com/in/lucas-borges-1b7556239" target="_blank">
                   <Linkedin />
@@ -113,7 +113,7 @@ export const ContactSection = () => {
             className="bg-card p-8 rounded-lg shadow-xs"
             onSubmit={handleSubmit}
           >
-            <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
+            <h3 className="text-2xl font-semibold mb-6"> Mande uma Mensagem</h3>
 
             <form className="space-y-6">
               <div>
@@ -122,7 +122,7 @@ export const ContactSection = () => {
                   className="block text-sm font-medium mb-2"
                 >
                   {" "}
-                  Your Name
+                  Seu Nome
                 </label>
                 <input
                   type="text"
@@ -140,7 +140,7 @@ export const ContactSection = () => {
                   className="block text-sm font-medium mb-2"
                 >
                   {" "}
-                  Your Email
+                  Seu Email
                 </label>
                 <input
                   type="email"
