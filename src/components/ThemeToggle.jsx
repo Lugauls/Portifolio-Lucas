@@ -30,7 +30,7 @@ export const ThemeToggle = () =>{
     }
   };
 
-    return <button onClick={toggleTheme} className={cn("fixed max-sm:hidden top-5 right-5 cursor-pointer")}> 
+    return <button onClick={toggleTheme} className={cn("fixedtop-5 right-5 cursor-pointer")}> 
         {IsDarkMode ? (<Sun className="h-6 w-6 text-yellow-300"/>
         
     ) : (

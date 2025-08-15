@@ -1,4 +1,5 @@
 import { Briefcase, Code, User } from "lucide-react";
+import {Curriculo} from "public/Curriculo"
 
 export const AboutSection = () => {
   return (
