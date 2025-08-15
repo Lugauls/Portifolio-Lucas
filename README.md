@@ -38,19 +38,21 @@ Uma apresentação online desenvolvida com React, Tailwind CSS e Vite, com deplo
 ##  Como Executar Localmente
 
 1. Clonar o repositório:  
-   ```bash
+   ````
    git clone https://github.com/Lugauls/Portifolio-Lucas.git
    cd Portifolio-Lucas
 
+2.Instalar dependências:
+
    npm install
 
-   Rodar localmente no modo de desenvolvimento:
+3.Rodar localmente no modo de desenvolvimento:
 
    npm run dev
 
-   Abrir http://localhost:3000 no navegador!
+4.Abrir http://localhost:3000 no navegador!
 
-Para build otimizada e deploy automático com Vercel:
+5.Para build otimizada e deploy automático com Vercel:
    npm run build
    npm run preview
    
@@ -63,17 +65,14 @@ O site está hospedado no Vercel e configurações como variáveis de ambiente f
 
 Adicionar sistema para ler e exibir mensagens do formulário em uma página administrativa
 
-Incluir autenticação básica para proteger essa área
-
-Implementar analytics básico para entender o tráfego do portfólio
 
 Otimizações de acessibilidade e performance contínua
 
 ##  Contato
 
-LinkedIn: Seu Perfil
+LinkedIn: Lucas Borges
 
-Email: seu-email@exemplo.com
+Email: lucasborges046@gmail.com
 
 Currículo para download: disponível no botão “Baixar Currículo” na página inicial
 
