@@ -30,7 +30,8 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="/Curriculo.pdf"
+                download={Curriculo_Lucas.pdf}
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Baixar Curriculo
