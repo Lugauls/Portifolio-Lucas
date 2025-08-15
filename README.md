@@ -1,12 +1,152 @@
-# React + Vite
+# Portfólio – Lucas Borges
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma apresentação online desenvolvida com React, Tailwind CSS e Vite, com deploy na Vercel. Este site destaca minhas habilidades em backend com C#, desenvolvimento frontend com React/Tailwind, e práticas de DevOps com Microsoft Azure.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **Frontend:** React, Tailwind CSS  
+- **Build & Deploy:** Vite e Vercel  
+- **Outros:** Lucide Icons, GitHub para controle de versão
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Estrutura do Projeto
+
+| Pasta              | Descrição                                                       |
+|-------------------|------------------------------------------------------------------|
+| `src/`            | Código frontend com componentes, páginas, lógica e estilos       |
+| `public/`         | Arquivos estáticos como curriculo.pdf, ícones e imagens       |
+| `components/`     | Componentes reutilizáveis (ex: ThemeToggle, formulários, botões) |
+| `pages/`          | Rotas do site (ex: Home.jsx, NotFound.jsx)                  |
+| `api/` (opcional) | Rotas servidor para salvar mensagens em banco (ex: Supabase)     |
+| `.env`            | Variáveis de ambiente para chaves e configurações secretas      |
+
+---
+
+##  Funcionalidades Principais
+
+- **Troca de tema (Light/Dark)** com persistência no `localStorage`  
+- **Download do currículo** a partir da pasta `public`  
+- **Formulário de contato funcional** integrado com backend para armazenamento de mensagens  
+- **Design responsivo** garantido pelo Tailwind CSS  
+- Deploy estável e rápido via Vercel para acesso global
+
+---
+
+##  Como Executar Localmente
+
+1. Clonar o repositório:  
+   ```bash
+   git clone https://github.com/Lugauls/Portifolio-Lucas.git
+   cd Portifolio-Lucas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
