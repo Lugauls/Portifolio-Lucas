@@ -19,10 +19,7 @@ export const AboutSection = () => {
                 Como iniciante em C#, estou focado em desenvolver minhas habilidades com o framework .NET, explorando práticas de DevOps e soluções em nuvem com Microsoft Azure. Também possuo conhecimentos em front-end, utilizando tecnologias e frameworks como Tailwind CSS e React, para criar aplicações modernas, escaláveis e eficientes.            </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              Sou apaixonado por desenvolver soluções eficientes com C# e .NET, explorando também front-end com Tailwind CSS e React, e aprendendo práticas de DevOps e cloud computing com Microsoft Azure para me manter em constante evolução no mundo da tecnologia.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
