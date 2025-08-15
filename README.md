@@ -44,17 +44,17 @@ Uma apresentação online desenvolvida com React, Tailwind CSS e Vite, com deplo
 
 2.Instalar dependências:
 
-   npm install
+   ``npm install``
 
 3.Rodar localmente no modo de desenvolvimento:
 
-   npm run dev
+  `` npm run dev``
 
 4.Abrir http://localhost:3000 no navegador!
 
 5.Para build otimizada e deploy automático com Vercel:
-   npm run build
-   npm run preview
+  `` npm run build
+   npm run preview``
    
 
 ##  Deploy
