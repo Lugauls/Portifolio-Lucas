@@ -44,9 +44,9 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> C# & .NET Development</h4>
+                  <h4 className="font-semibold text-lg"> Back-End Development</h4>
                   <p className="text-muted-foreground">
-                    Aprendendo e desenvolvendo aplicações com C# e .NET, focando em soluções modernas e escaláveis.
+                    Desenvolvendo APIs e serviços utilizando Node.js, Express e FastAPI, com foco em desempenho e boas práticas.
                   </p>
                 </div>
               </div>
@@ -71,9 +71,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">DevOps & Cloud</h4>
+                  <h4 className="font-semibold text-lg">Docker & AI</h4>
                   <p className="text-muted-foreground">
-                    Explorando práticas de DevOps e soluções em nuvem com Microsoft Azure para otimizar o ciclo de desenvolvimento.
+                    Aprendendo e aplicando Docker e conceitos de IA para melhorar a criação e o fluxo de desenvolvimento de projetos..
                   </p>
                 </div>
               </div>
