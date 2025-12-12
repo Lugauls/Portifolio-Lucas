@@ -13,15 +13,14 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Desenvolvedor C# e .NET 
+              Desenvolvedor FullStack JS/PY
             </h3>
 
             <p className="text-muted-foreground">
-                Como iniciante em C#, estou focado em desenvolver minhas habilidades com o framework .NET, explorando práticas de DevOps e soluções em nuvem com Microsoft Azure. Também possuo conhecimentos em front-end, utilizando tecnologias e frameworks como Tailwind CSS e React, para criar aplicações modernas, escaláveis e eficientes.            </p>
+               Como desenvolvedor em crescimento, atualmente estou direcionando minha carreira para o full-stack, utilizando JavaScript e Python. Tenho experiência com Node.js, Express e FastAPI no back-end, além de trabalhar com React e Tailwind CSS no front-end para criar interfaces modernas e eficientes. Meu objetivo é construir aplicações completas, escaláveis e com boas práticas, evoluindo continuamente nas principais tecnologias do ecossistema web. </p>
 
             <p className="text-muted-foreground">
-              Sou apaixonado por desenvolver soluções eficientes com C# e .NET, explorando também front-end com Tailwind CSS e React, e aprendendo práticas de DevOps e cloud computing com Microsoft Azure para me manter em constante evolução no mundo da tecnologia.
-            </p>
+                Acho muito legais e interessantes as tecnologias do ecossistema web, especialmente JavaScript e Python. Tenho experiência com Node.js, Express e FastAPI no back-end, além de React e Tailwind CSS no front-end, e estou sempre aprendendo para aprimorar minhas habilidades.</p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
