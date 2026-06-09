@@ -21,7 +21,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Desenvolvedor full-stack iniciante, atuando com JavaScript, Python, Node.js, Express, FastAPI, React e Tailwind CSS. Tenho interesse em Docker e tecnologias de IA para complementar meu crescimento na área.          </p>
+            Desenvolvedor Fullstack focado no ecossistema JavaScript/TypeScript, com experiência em Node.js, Express, React e Tailwind CSS. Atualmente aprofundando conhecimentos em NestJS e Next.js para construir aplicações completas e escaláveis com boas práticas.          </p>
 
         </div>
       </div>

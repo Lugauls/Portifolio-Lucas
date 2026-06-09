@@ -13,14 +13,14 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Desenvolvedor FullStack JS/PY
+              Desenvolvedor FullStack JS/TS
             </h3>
 
             <p className="text-muted-foreground">
-               Como desenvolvedor em crescimento, atualmente estou direcionando minha carreira para o full-stack, utilizando JavaScript e Python. Tenho experiência com Node.js, Express e FastAPI no back-end, além de trabalhar com React e Tailwind CSS no front-end para criar interfaces modernas e eficientes. Meu objetivo é construir aplicações completas, escaláveis e com boas práticas, evoluindo continuamente nas principais tecnologias do ecossistema web. </p>
+               Desenvolvedor Fullstack com foco no ecossistema JavaScript/TypeScript. Trabalho com React e Tailwind CSS no front-end para criar interfaces modernas e eficientes, e com Node.js e Express no back-end para construir APIs robustas. </p>
 
             <p className="text-muted-foreground">
-                Acho muito legais e interessantes as tecnologias do ecossistema web, especialmente JavaScript e Python. Tenho experiência com Node.js, Express e FastAPI no back-end, além de React e Tailwind CSS no front-end, e estou sempre aprendendo para aprimorar minhas habilidades.</p>
+                Atualmente aprofundando conhecimentos em NestJS e Next.js, buscando sempre boas práticas e código de qualidade. Sou apaixonado pelo ecossistema web e acredito que consistência e projetos reais são o melhor caminho para evoluir como desenvolvedor.</p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
