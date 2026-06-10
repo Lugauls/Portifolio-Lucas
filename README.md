@@ -1,6 +1,6 @@
 # Portfólio – Lucas Borges
 
-Uma apresentação online desenvolvida com React, Tailwind CSS e Vite, com deploy na Vercel. Este site destaca minhas habilidades em backend com C#, desenvolvimento frontend com React/Tailwind, e práticas de DevOps com Microsoft Azure.
+Portfólio pessoal desenvolvido com React, Tailwind CSS e Vite,com deploy na Vercel.
 
 ---
 
