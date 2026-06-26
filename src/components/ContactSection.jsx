@@ -15,19 +15,35 @@ import { useState } from "react";
 export const ContactSection = () => {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
+   const formRef = useRef(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     setIsSubmitting(true);
 
-    setTimeout(() => {
+    try {
+      await emailjs.sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        formRef.current,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      );
+
       toast({
-        title: "Message sent!",
-        description: "Thank you for your message. I'll get back to you soon.",
+        title: "Mensagem enviada!",
+        description: "Obrigado pelo contato. Responderei em breve!",
       });
+
+      formRef.current.reset();
+    } catch (error) {
+      toast({
+        title: "Erro ao enviar!",
+        description: "Tente novamente ou entre em contato pelo email.",
+        variant: "destructive",
+      });
+    } finally {
       setIsSubmitting(false);
-    }, 1500);
+    }
   };
   return (
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
@@ -63,6 +79,7 @@ export const ContactSection = () => {
                   </a>
                 </div>
               </div>
+              
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />{" "}
@@ -79,16 +96,16 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4 "> Siga-me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="www.linkedin.com/in/lucas-borges-1b7556239" target="_blank">
+                <a href="www.linkedin.com/in/lucas-borges-1b7556239" target="_blank" rel="noreferrer">
                   <Linkedin />
                 </a>
-                <a href="https://x.com/Lugauls" target="_blank">
+                <a href="https://x.com/Lugauls" target="_blank" rel="noreferrer">
                   <Twitter />
                 </a>
-                <a href="https://www.instagram.com/lugauls/" target="_blank">
+                <a href="https://www.instagram.com/lugauls/" target="_blank" rel="noreferrer">
                   <Instagram />
                 </a>
-                <a href="#" target="_blank">
+                <a href="#" target="_blank" rel="noreferrer">
                   <Twitch />
                 </a>
               </div>
@@ -152,6 +169,7 @@ export const ContactSection = () => {
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary resize-none"
                   placeholder="Olá, gostaria de falar sobre..."
+                  rows={5}
                 />
               </div>
 
