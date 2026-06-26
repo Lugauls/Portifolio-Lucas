@@ -20,10 +20,6 @@ export const ContactSection = () => {
   const handleSubmit =  async (e) => {
     e.preventDefault();
 
-  console.log("Service ID:", import.meta.env.VITE_EMAILJS_SERVICE_ID);
-  console.log("Template ID:", import.meta.env.VITE_EMAILJS_TEMPLATE_ID);
-  console.log("Public Key:", import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
-
     setIsSubmitting(true);
 
     try {
@@ -41,6 +37,7 @@ export const ContactSection = () => {
 
       formRef.current.reset();
     } catch (error) {
+      console.log("Erro completo:", error);
       toast({
         title: "Erro ao enviar!",
         description: "Tente novamente ou entre em contato pelo email.",
