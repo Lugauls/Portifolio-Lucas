@@ -17,7 +17,7 @@ export const ContactSection = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
    const formRef = useRef(null);
 
-  const handleSubmit = (e) => {
+  const handleSubmit =  async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
 
