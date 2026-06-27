@@ -104,7 +104,7 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4 "> Siga-me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="www.linkedin.com/in/lucas-borges-1b7556239" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/lucas-borges-1b7556239" target="_blank" rel="noreferrer">
                   <Linkedin />
                 </a>
                 <a href="https://x.com/Lugauls" target="_blank" rel="noreferrer">
